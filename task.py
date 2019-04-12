@@ -18,3 +18,11 @@
 #
 #Delete these comments before commit!
 #Good luck.
+from plane import Plane
+
+if __name__ == '__main__':
+    p = Plane()
+    print("Plane angle and orientation:")
+    print(p.angle)
+    print(p.orientation)
+    print("----")
